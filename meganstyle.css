@@ -1,24 +1,28 @@
+html{
+  font-size: 100%;
+}
 
 p {
-  color: blue;
-  color: #00008B;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #808080;
+  font-family: 'PT Serif', Helvetica,serif;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.35rem;
 }
 
 h1{
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Coda Caption', Helvetica, sans-serif;
   text-align: center;
-  font-size: 65px;
+  font-size: 2.5rem;
 }
 
 body{
-  background-color:#00008B;
+  background-color:#F5F5F5;
 }
 
 #container{
   width: 95%;
-  background-color:#FF7F50;
+  background-color:#D8BFD8;
   margin: 20px auto;
   padding: 20px;
 }
@@ -37,32 +41,41 @@ body{
 
 .caption{
   color:black;
-  font-family:Georgia, "Times New Roman", serif;
+  font-family: 'PT Sans', Helvetica, sans-serif;
   font-size:0.8em;
   font-style:italic;
   margin-top:0;
   text-align:right;
 }
 
+#links li{
+  float: left;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  width: 25%;
+}
+
+
 a:link{
   color:#393939;
   background-color: #E6E6FA;
   text-decoration:none;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a:visited {
   color:#59465a;
   background-color: #E6E6FA;
   text-decoration:underline;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a:active{
   color: #394024;
   background-color: #E6E6FA;
   text-decoration: underline;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 img{
@@ -71,3 +84,9 @@ img{
   margin: auto;
   width:50%;
 }
+
+#footer {
+    color: black;
+    font-family: 'PT Serif', serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
