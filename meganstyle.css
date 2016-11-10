@@ -105,6 +105,11 @@ ul {
   flex-direction: column;
 }
 
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+
 .photo {
   display: flex;
   flex-direction: column;
@@ -145,6 +150,10 @@ img {
 .sidebar {
   flex-direction: row;
   width: 50%;
+}
+
+.menu-trigger {
+    display: none;
 }
 
 .photo {
